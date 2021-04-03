@@ -1,0 +1,36 @@
+.IconBtn {
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+
+  .wrapper {
+    padding: 5px 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+
+    .txt {
+        color: #000;
+        font-family: "Nunito";
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    &:hover {
+        background: rgba($color: #000000, $alpha: 0.3);
+    }
+
+    .icon {
+      height: 20px;
+      width: auto;
+      box-sizing: border-box;
+      padding: 0 5px;
+    }
+  }
+}

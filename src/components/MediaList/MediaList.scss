@@ -1,0 +1,74 @@
+.MediaList {
+  box-sizing: border-box;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 100%;
+    height: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #222222;
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+
+  h3 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito";
+    font-size: 18px;
+    color: #fff;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 20px;
+
+    .item {
+      box-sizing: border-box;
+      height: 180px;
+      width: auto;
+      margin: 0 10px;
+
+      &:hover {
+        height: 250px;
+      }
+
+      .item-img {
+        height: 100%;
+        width: auto;
+        box-sizing: border-box;
+        cursor: pointer;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.MoviesScreen {
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+
+    h1 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        padding: 20px 20px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        width: 100%;
+        box-sizing: border-box;
+        height: 100px;
+    }
+}
+
+.MoviesScreenLoading {
+    width: 100%;
+    min-height: 65vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

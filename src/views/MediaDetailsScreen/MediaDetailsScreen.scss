@@ -1,0 +1,41 @@
+.MediaDetailsScreen {
+    box-sizing: border-box;
+    width: 100%;
+
+    .info {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10%;
+        color: #FFF;
+
+        .img {
+            width: 160px;
+            height: auto;
+        }
+
+        .controlls {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            box-sizing: border-box;
+            width: 230px;
+            justify-content: space-between;
+        }
+    }
+}
+
+.MediaDetailsScreenLoading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    box-sizing: border-box;
+
+    p {
+        color: #FFF;
+    }
+}

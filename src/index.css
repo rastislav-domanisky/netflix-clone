@@ -1,5 +1,5 @@
 body {
-  font-family: "Bebas Neue", "Helvetica Neue", sans-serif;
+  font-family: "Bebas Neue", 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;

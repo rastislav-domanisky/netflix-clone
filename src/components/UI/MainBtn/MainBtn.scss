@@ -1,0 +1,16 @@
+.MainBtn {
+    box-sizing: border-box;
+    color: #FFF;
+    background: #e50914;
+    font-family: "Nunito";
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background: #cc2f36;
+    }
+}

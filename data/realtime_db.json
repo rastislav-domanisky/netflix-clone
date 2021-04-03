@@ -1,0 +1,120 @@
+{
+    "languages": [
+        "en",
+        "sk"
+    ],
+
+    "strings": {
+
+        "en": {
+            "home_screen": {
+                "btn": "Sign In",
+                "welcome": "Welcome back!",
+                "heading": "Unlimited movies, TV shows, and more.",
+                "param": "Watch anywhere. Cancel anytime",
+                "adItems": [
+                    {
+                        "heading": "Enjoy on your TV.",
+                        "param": "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more."
+                    },
+                    {
+                        "heading": "Download your shows to watch offline.",
+                        "param": "Save your favorites easily and always have something to watch."
+                    },
+                    {
+                        "heading": "Watch everywhere.",
+                        "param": "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more."
+                    }
+                ]
+            },
+
+            "main_screen": {
+                "signOut": "Sign Out",
+                "nav": {
+                    "trending": "Trending",
+                    "movies": "Movies",
+                    "series": "TV Shows",
+                    "list": "My List"
+                }
+            },
+
+            "trending_screen": {
+                "heading": "Trending now",
+                "movies": "Movies",
+                "series": "TV Shows"
+            },
+
+            "movies_screen": {
+                "heading": "Movies",
+                "recommended": "Recommended movies",
+                "others": "Others are watching"
+            },
+
+            "series_screen": {
+                "heading": "TV Shows",
+                "recommended": "Recommended series",
+                "others": "Others are watching"
+            },
+
+            "myList_screen": {
+                "heading": "My List"
+            }
+        },
+
+        "sk": {
+            "home_screen": {
+                "btn": "Prihlásiť sa",
+                "welcome": "Vitaj späť!",
+                "heading": "Neobmedzené pozeranie na filmy, seriály a ďaľšie",
+                "param": "Pozerajte kdekoľvek. Zrušte kedykoľvek",
+                "adItems": [
+                    {
+                        "heading": "Užite si pozeranie na TV",
+                        "param": "Pozerajte sa na Smart TV, PlayStation, Xbox, Chromecast, Apple TV, Blue-ray prehrávačoch a ďaľších zariadeniach."
+                    },
+                    {
+                        "heading": "Stiahnite si svoje obľúbené seriály, aby ste sa mohli pozerať aj offline.",
+                        "param": "Uložte si svoh´je obľúbené seríaly, aby ste sa mohli stále na čo pozerať."
+                    },
+                    {
+                        "heading": "Pozerajte kedykoľvek.",
+                        "param": "Streamujte neobmedzene filmy a seriály za výhodnú cenu na mobile, tablete, notebooku a TV."
+                    }
+                ]
+            },
+
+            "main_screen": {
+                "signOut": "Odhlásiť sa",
+                "nav": {
+                    "trending": "Populárne",
+                    "movies": "Filmy",
+                    "series": "Seriály",
+                    "list": "Môj Zoznam"
+                }
+            },
+
+            "trending_screen": {
+                "heading": "Populárne teraz",
+                "movies": "Filmy",
+                "series": "Seriály"
+            },
+
+            "movies_screen": {
+                "heading": "Filmy",
+                "recommended": "Odporúčané filmy",
+                "others": "Ostatní pozerajú"
+            },
+
+            "series_screen": {
+                "heading": "Seriály",
+                "recommended": "Odporúčané seriály",
+                "others": "Ostatní pozerajú"
+            },
+
+            "myList_screen": {
+                "heading": "Môj Zoznam"
+            }
+        }
+
+    }
+}
